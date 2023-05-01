@@ -4,8 +4,8 @@
 <head>
 	<meta charset=utf-8>
 
-	<meta name="viewport" content="width = device-width, initial-scale =
-0.80, maximum-scale = 1.0, user-scalable = 1,
+	<meta name="viewport" content="width=device-width, initial-scale =
+0.80, maximum-scale = 1.0, user-scalable = 0,
 minimal-ui=1.0" />
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css"
 		integrity="sha384-r4NyP46KrjDleawBgD5tp8Y7UzmLA05oM1iAEQ17CSuDqnUK2+k9luXQOfXJCJ4I" crossorigin="anonymous">
@@ -20,9 +20,11 @@ minimal-ui=1.0" />
 
 		<style>
 			body {
-			background-color: #2f2f2f;
-			
+				background-color: #2f2f2f;
+				margin: 0 auto;
+
 			}
+			
 			@font-face {
     font-family: 'digital-7';
     src: url('assets/digital-7.ttf');
@@ -33,18 +35,17 @@ minimal-ui=1.0" />
 
 <body>
 	<div class="d-flex bd-highlight">
-		<div class="p-2 flex-fill bd-highlight">
-			<center>
-			<div id="game" class="game ">
+		<div class="row align-items-center">
+			<div id="game" >
 
 			</div>
-		</center>
+
 		</div>
 
 	</div>
 
 	<script src="https://cdn.jsdelivr.net/npm/phaser@3.16.2/dist/phaser.js"></script>
-	<script src="dist/app.js"></script>
+	<script src="/dist/app.js"></script>
 </body>
 
 </html>

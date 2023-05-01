@@ -1,0 +1,17 @@
+body {
+  background: gray;
+
+}
+
+canvas {
+  display: block;
+  margin: 0 auto;
+}
+
+.container {
+  outline: thin dotted aqua;
+}
+
+.row, .col, [class*="col-"] {
+  outline: thin dotted violet;
+}
