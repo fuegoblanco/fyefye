@@ -13,6 +13,8 @@ import { Enemy } from './Enemy/Enemy';
 import { pacmanAnimInit, ghostsAnimInit } from './Utils/animations';
 import { Utils } from './Utils/utils';
 import { Tile, fruit, tileType } from './Tile';
+import PreloadScene from "./loading";
+import MenuScene from "./menu";
 import WebFont = require('webfontloader');
 export let scene;
 export let map: Map;
@@ -415,8 +417,6 @@ collectPoint(player, point) {
 var config = {
   type: Phaser.AUTO,
   parent: 'game',
- 
- 
   backgroundColor: "#2f2f2f",
 fps: {
   target: 60,
